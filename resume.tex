@@ -126,16 +126,17 @@
 \resumeSubheading
 {University of Illinois at Urbana Champaign}{Urbana Champaign, IL}
 {B.S. Computer Engineering, Grainger College of Engineering}{Aug. 2021 -- May 2025}
-\resumeItem{ Relevant coursework: Computer Systems Engineering, Database systems, Intro to Artificial Intelligence, Multimedia Signal Processing, Data structures and Algorithms, Digital Systems Laboratory, Computer Systems and programming, Analog Signal Processing, Linear Algebra with Python Applications, Introduction to Computing}
-
+\newline
+\newline
+\textbf{Relevant Coursework: }Computer Systems Engineering, Database systems, Intro to Artificial Intelligence, Multimedia Signal Processing, Data structures and Algorithms, Digital Systems Laboratory
 \resumeSubHeadingListEnd
 %--------TECHNICAL SKILLS--------------
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
-                \textbf{Languages}{: Python, C/C++, SQL (MySQL), JavaScript, HTML/CSS, System Verilog, x86 asm, Golang} \\
-                \textbf{Technologies}{: React, Node.js, Express, Google Firebase, ROS, Nav 2, pandas, Matplotlib, FPGA} \\
-                \textbf{Developer Tools}{: Git, Docker, VS Code, Linux} \\
+                \textbf{Languages}{: Python, C/C++, SQL (MySQL), JavaScript, HTML/CSS, System Verilog, x86 asm, Golang, Rust} \\
+                \textbf{Technologies}{: Node.js, Express, Google Cloud Platform, ROS, Nav 2, pandas, Matplotlib, FPGA} \\
+                \textbf{Developer Tools}{: Git, Docker, VS Code, Linux(Ubuntu)} \\
           }}
 \end{itemize}
 
@@ -155,7 +156,7 @@
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 \resumeSubheading
-{\normalsize Research Assistant}{Feb 2023 -- Present}
+{\normalsize Research Assistant}{Feb 2023 -- Aug 2023}
 {Advanced Controls laboratory}{}
 \resumeItemListStart
 \resumeItem{Implemented path planning algorithms in quad-copters, to allow for autonomous flight}
@@ -180,7 +181,7 @@
 % \resumeItemListEnd
 
 \resumeSubheading
-{\normalsize Illini Robotics in Space autonomous team}{Aug 2022 - Present}
+{\normalsize Illini Robotics in Space autonomous team}{Aug 2022 - May 2023}
 {University of Illinois at Urbana Champaign}{Champaign, IL}
 \resumeItemListStart
 \resumeItem{Specialised in writing code which allowed a lunar rover to navigate a lunar environment autonomously In order to participate in the Lunabotics competition hosted by NASA}
@@ -204,10 +205,13 @@
 \resumeProjectHeading
 {\textbf{Unix Like 32-bit x86 Operating System} $|$ \emph{C, x86 asm}}{}
 \resumeItemListStart
-\resumeItem{Implemented support for round-robin process scheduling policy, with terminal switching}
-\resumeItem{Supported virtual memory using paging data-structures, and implemented a readable file system}
-\resumeItem{Supported system calls such as Execute, Halt, and Vidmap}
-\resumeItem{Created device drivers for keyboard, Real Time Clock, Programmable Interrupt Controller, and Programmable Interval Timer}
+\resumeItem{Architected a minimalistic multitasking operating system for x86 hardware, prioritizing efficiency and reliability}
+\resumeItem{Devised an interrupt-driven, time-slice-based CPU scheduling algorithm to schedule process execution}
+% \resumeItem{Implemented support for round-robin process scheduling policy, with terminal switching}
+\resumeItem{Supported virtual memory using paging data-structures}
+\resumeItem{Developed a custom filesystem that supports basic file operations, utilizing storage, and I/O principles}
+% \resumeItem{Supported system calls such as Execute, Halt, and Vidmap}
+\resumeItem{Implemented device drivers for keyboard, Real Time Clock, Programmable Interrupt Controller, and Programmable Interval Timer}
 \resumeItemListEnd
 \resumeProjectHeading
 {\textbf{Game Developer's toolkit} $|$ \emph{Javascript, HTML, CSS, Node.js, Express, MySQL, Python}}{}
@@ -224,14 +228,23 @@
 % \resumeItem{Stored users using PostgresSQL}
 % \resumeItem{Styled front end using SCSS}
 \resumeItemListEnd
+
 \resumeProjectHeading
-{\textbf{Wikipedia graph analysis} $|$ \emph{C++}}{}
+{\textbf{Chip-8 Emulator and Microcontroller port} $|$ \emph{Rust, C}}{}
 \resumeItemListStart
-\resumeItem{Analyzed a directed unweighted graph based on 4 million Wikipedia pages to create a "you might also like" tool}
-\resumeItem{Implemented the BFS algorithm, to trim and process the dataset}
-\resumeItem{Used the Brandes algorithm to efficiently calculate betweenness centrality for each node, utilizing this to return a related topic to two wikipedia pages inputted by a user}
-\resumeItem{Used Kosaraju's algorithm to find strongly connected components in the graph}
+\resumeItem{Developed a Chip-8 emulator in Rust, Engineered to be resource-efficient, optimizing for constrained environments}
+\resumeItem{Ported the emulator to an ARM Cortex-M4 microcontroller, adapting Rust code for embedded systems}
+\resumeItem{Implemented I/O functionality on the microcontroller, managing keyboard input and display output via \textbf{SPI} interface}
+\resumeItem{Ensured real-time performance and responsiveness by utilizing hardware timers and \textbf{interrupt-driven} design}
 \resumeItemListEnd
+% \resumeProjectHeading
+% {\textbf{Wikipedia graph analysis} $|$ \emph{C++}}{}
+% \resumeItemListStart
+% \resumeItem{Analyzed a directed unweighted graph based on 4 million Wikipedia pages to create a "you might also like" tool}
+% \resumeItem{Implemented the BFS algorithm, to trim and process the dataset}
+% \resumeItem{Used the Brandes algorithm to efficiently calculate betweenness centrality for each node, utilizing this to return a related topic to two wikipedia pages inputted by a user}
+% \resumeItem{Used Kosaraju's algorithm to find strongly connected components in the graph}
+% \resumeItemListEnd
 \resumeProjectHeading
 {\textbf{Chat-App} $|$
   \emph{Golang, javascript, HTML, CSS}}{}
