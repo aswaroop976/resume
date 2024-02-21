@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1708147626 "/home/arpan/projects/resume/resume.tex" "resume.pdf" "resume" 1708147626
+["pdflatex"] 1708496326 "/home/arpan/projects/resume/resume.tex" "resume.pdf" "resume" 1708496327
   "/etc/texmf/web2c/texmf.cnf" 1705612258 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/arpan/projects/resume/resume.tex" 1708147626 11853 17109bf9a35ce2a8f0b7d368c41fa3d9 ""
+  "/home/arpan/projects/resume/resume.tex" 1708496326 11852 7529451b14a533186dbf21b2d5d4dc29 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -85,9 +85,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1705613207 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1705613246 2800718 53f92b0650bdd850219f4d6058baf934 ""
-  "resume.aux" 1708147626 1197 a706e47ce480fbc8571994c4baa3d686 "pdflatex"
-  "resume.out" 1708147626 390 4d3a3466df4aec76556325aafe36c0f3 "pdflatex"
-  "resume.tex" 1708147626 11853 17109bf9a35ce2a8f0b7d368c41fa3d9 ""
+  "resume.aux" 1708496327 1197 a706e47ce480fbc8571994c4baa3d686 "pdflatex"
+  "resume.out" 1708496327 390 4d3a3466df4aec76556325aafe36c0f3 "pdflatex"
+  "resume.tex" 1708496326 11852 7529451b14a533186dbf21b2d5d4dc29 ""
   (generated)
   "resume.aux"
   "resume.log"
