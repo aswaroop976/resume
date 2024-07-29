@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.18)  21 FEB 2024 00:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.6.1)  29 JUL 2024 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/arpan/projects/resume/resume.tex
-(/home/arpan/projects/resume/resume.tex
+**resume.tex
+(./resume.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -135,7 +135,8 @@ LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen146
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count199
@@ -190,18 +191,22 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count271
 \U@D=\dimen149
-\l@unhyphenated=\language87
+\l@unhyphenated=\language3
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count272
  (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language13). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language13). Reported on input line 108.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
@@ -283,7 +288,9 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 116.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 117.
+(Font)              <9> on input line 117.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 117.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 117.
@@ -291,16 +298,12 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 117
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 128.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 128.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 128.
+(Font)              <7> on input line 128.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [1
 
@@ -312,18 +315,18 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 4D3A3466DF4AEC76556325AAFE36C0F3;390.
  ) 
 Here is how much of TeX's memory you used:
- 10254 strings out of 478287
- 161708 string characters out of 5849289
- 504229 words of memory out of 5000000
- 28329 multiletter control sequences out of 15000+600000
- 474851 words of font info for 50 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 60i,11n,63p,275b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 105813 bytes).
+ 10252 strings out of 480247
+ 161558 string characters out of 5896152
+ 498156 words of memory out of 5000000
+ 28073 multiletter control sequences out of 15000+600000
+ 473828 words of font info for 46 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 60i,11n,63p,247b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on resume.pdf (1 page, 133290 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
