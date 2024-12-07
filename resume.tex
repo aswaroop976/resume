@@ -128,7 +128,7 @@
 {B.S. Computer Engineering, Grainger College of Engineering}{Aug. 2021 -- May 2025}
 \newline
 \newline
-\textbf{Relevant Coursework: }Computer Systems Engineering, Distributed systems, Database systems, Intro to Artificial Intelligence, Multimedia Signal Processing, Digital Signal Processing, Data structures and Algorithms
+\textbf{Relevant Coursework: }Computer Organization and design, Computer Systems Engineering, Distributed systems, Database systems, Multimedia Signal Processing, Digital Signal Processing, Data structures and Algorithms
 \resumeSubHeadingListEnd
 %--------TECHNICAL SKILLS--------------
 \section{Technical Skills}
@@ -136,7 +136,7 @@
   \small{\item{
                 \textbf{Languages}{: Python, C/C++, Java, SQL (MySQL), JavaScript, HTML/CSS, System Verilog, x86 asm, Golang, Rust} \\
                 \textbf{Technologies}{: Node.js, Express, Google Cloud Platform, Spring Framework, ROS, Synopsis VCS} \\
-                \textbf{Developer Tools}{: Git, Docker, NeoVim, Linux(Ubuntu)} \\
+                \textbf{Developer Tools}{: Git, Docker, Linux} \\
           }}
 \end{itemize}
 
@@ -215,6 +215,17 @@
 \section{Projects}
 \resumeSubHeadingListStart
 \resumeProjectHeading
+{\textbf{Out of Order RISC-V processor} $|$ \emph{System Verilog, Synopsis VCS}}{}
+\resumeItemListStart
+\resumeItem{Designed and tested an out of order processor using the explicit register renaming architecture}
+\resumeItem{Achieved third highest maximum frequency in class wide design competition of 630Mhz}
+\resumeItem{Acheived 0.4 IPC on the Coremark IM benchmark, with high instruction level parallelism}
+\resumeItem{Incorporated an instruction and data cache utilizing pipelined 4-way set associative caches}
+\resumeItem{Implemented integral components such as: Free list, reservation stations, register alias table, retirement register alias table, physical register file, mult/div functional unit, return order buffer, load store queue}
+\resumeItem{Incorporated dynamic branch prediction with a G-share branch predictor along with a Branch Target buffer}
+\resumeItem{Developed additional advanced features such as a split load store queue for out of order loads, as well as a next line prefetcher}
+\resumeItemListEnd
+\resumeProjectHeading
 {\textbf{Unix Like 32-bit x86 Operating System} $|$ \emph{C, x86 asm}}{}
 \resumeItemListStart
 \resumeItem{Architected a minimalistic multitasking operating system for x86 hardware, prioritizing efficiency and reliability}
@@ -241,31 +252,31 @@
 % \resumeItem{Styled front end using SCSS}
 \resumeItemListEnd
 
-\resumeProjectHeading
-{\textbf{Chip-8 Emulator and Microcontroller port} $|$ \emph{Rust, C}}{}
-\resumeItemListStart
-\resumeItem{Developed a Chip-8 emulator in Rust, Engineered to be resource-efficient, optimizing for constrained environments}
-\resumeItem{Ported the emulator to an ARM Cortex-M4 microcontroller, adapting Rust code for embedded systems}
-\resumeItem{Implemented I/O functionality on the microcontroller, managing keyboard input and display output via \textbf{SPI} interface}
-\resumeItem{Ensured real-time performance and responsiveness by utilizing hardware timers and \textbf{interrupt-driven} design}
-\resumeItemListEnd
-% \resumeProjectHeading
-% {\textbf{Wikipedia graph analysis} $|$ \emph{C++}}{}
-% \resumeItemListStart
-% \resumeItem{Analyzed a directed unweighted graph based on 4 million Wikipedia pages to create a "you might also like" tool}
-% \resumeItem{Implemented the BFS algorithm, to trim and process the dataset}
-% \resumeItem{Used the Brandes algorithm to efficiently calculate betweenness centrality for each node, utilizing this to return a related topic to two wikipedia pages inputted by a user}
-% \resumeItem{Used Kosaraju's algorithm to find strongly connected components in the graph}
-% \resumeItemListEnd
-\resumeProjectHeading
-{\textbf{Chat-App} $|$
-  \emph{Golang, javascript, HTML, CSS}}{}
-\resumeItemListStart
-\resumeItem{Created a simple chat-app utilizing a backend http web-server written in Go}
-\resumeItem{Utilized \textbf{web-sockets} with \textbf{Go-routines} and \textbf{Go-channels} to allow multiple users to connect to the server}
-\resumeItem{Utilized javascript, HTML, CSS to create dynamic webpages served from the web server}
-\resumeItemListEnd
-\resumeSubHeadingListEnd
+%\resumeProjectHeading
+%{\textbf{Chip-8 Emulator and Microcontroller port} $|$ \emph{Rust, C}}{}
+%\resumeItemListStart
+%\resumeItem{Developed a Chip-8 emulator in Rust, Engineered to be resource-efficient, optimizing for constrained environments}
+%\resumeItem{Ported the emulator to an ARM Cortex-M4 microcontroller, adapting Rust code for embedded systems}
+%\resumeItem{Implemented I/O functionality on the microcontroller, managing keyboard input and display output via \textbf{SPI} interface}
+%\resumeItem{Ensured real-time performance and responsiveness by utilizing hardware timers and \textbf{interrupt-driven} design}
+%\resumeItemListEnd
+%% \resumeProjectHeading
+%% {\textbf{Wikipedia graph analysis} $|$ \emph{C++}}{}
+%% \resumeItemListStart
+%% \resumeItem{Analyzed a directed unweighted graph based on 4 million Wikipedia pages to create a "you might also like" tool}
+%% \resumeItem{Implemented the BFS algorithm, to trim and process the dataset}
+%% \resumeItem{Used the Brandes algorithm to efficiently calculate betweenness centrality for each node, utilizing this to return a related topic to two wikipedia pages inputted by a user}
+%% \resumeItem{Used Kosaraju's algorithm to find strongly connected components in the graph}
+%% \resumeItemListEnd
+%\resumeProjectHeading
+%{\textbf{Chat-App} $|$
+%  \emph{Golang, javascript, HTML, CSS}}{}
+%\resumeItemListStart
+%\resumeItem{Created a simple chat-app utilizing a backend http web-server written in Go}
+%\resumeItem{Utilized \textbf{web-sockets} with \textbf{Go-routines} and \textbf{Go-channels} to allow multiple users to connect to the server}
+%\resumeItem{Utilized javascript, HTML, CSS to create dynamic webpages served from the web server}
+%\resumeItemListEnd
+%\resumeSubHeadingListEnd
 
 
 
