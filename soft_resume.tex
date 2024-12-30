@@ -1,0 +1,298 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+%
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt]}
+
+% \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+  \textbf{\Huge \scshape Arpan Swaroop} \\ \vspace{1pt}
+  \small 402-913-5141 $|$ \href{mailto:aswar3@illinois.edu}{\underline{aswar3@illinois.edu}} $|$
+  \href{https://www.linkedin.com/in/arpan-swaroop-008b04256/}{\underline{linkedin.com/in/arpan-swaroop}} $|$
+  \href{https://github.com/aswaroop976}{\underline{github.com/aswaroop976}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Illinois at Urbana Champaign}{Urbana Champaign, IL}
+{B.S. Computer Engineering, Grainger College of Engineering}{Aug. 2021 -- May 2025}
+\newline
+\newline
+\textbf{Relevant Coursework: }Computer Organization and design, Computer Systems Engineering, Distributed systems, Database systems, Multimedia Signal Processing, Digital Signal Processing, Data structures and Algorithms
+\resumeSubHeadingListEnd
+%--------TECHNICAL SKILLS--------------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+                \textbf{Languages}{: Python, C/C++, Java, SQL (MySQL), JavaScript, HTML/CSS, System Verilog, x86 asm, Golang, Rust} \\
+                \textbf{Technologies}{: Node.js, Express, Google Cloud Platform, Spring Framework, ROS, Synopsis VCS} \\
+                \textbf{Developer Tools}{: Git, Docker, Linux} \\
+          }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\resumeSubheading
+{\normalsize Web Developer Intern}{Jun 2024 -- Aug 2024}
+{Avermatix LLC.}{}
+\resumeItemListStart
+\resumeItem{Redesigned landing page to include more modern and minimal UI/UX using Figma}
+\resumeItem{Implemented these changes using HTML/CSS and Javascript on the frontend}
+\resumeItem{Created a custom form, and connected it to a REST API written in Java using the Spring Boot framework}
+\resumeItem{Architected the integration of a relational database, designing the schema, and writing custom queries to handle user data for 100s of users}
+\resumeItem{Wrote a comprehensive business report about the impact of generative AI on low-code app building services}
+\resumeItemListEnd
+
+\resumeSubheading
+{\normalsize Research Assistant}{Feb 2023 -- Aug 2023}
+{Advanced Controls laboratory}{}
+\resumeItemListStart
+\resumeItem{Implemented path planning algorithms in quad-copters, to allow for autonomous flight}
+\resumeItem{Developed these algorithms using Euclidean signed distance fields for fast and flexible local planning}
+\resumeItem{Implemented the rapidly exploring random trees algorithm for efficient path planning}
+\resumeItem{Utilized \textbf{ROS} to integrate the depth sense cameras used for localization and planning}
+\resumeItem{Developed on the Nvidia Xavier nx platform}
+\resumeItemListEnd
+
+% \resumeSubheading
+%   {\normalsize Project Code Web Dev co-lead}{Aug 2022 -- Dec 2022}
+%   {University of Illinois at Urbana Champaign}{Champaign, IL}
+%   \resumeItemListStart
+%     \resumeItem{Co-lead in developing the project code club's website, a club that facilitates student led computer science projects}
+%     \resumeItem{Developed the membership management system, to keep track of different project teams, and help organize resources and meetings}
+%     \resumeItem{Created a page to display ongoing projects and their progress}
+%     \resumeItem{Created a form to allow project managers to input new projects and update ongoing projects}
+%     \resumeItem{Stored all inputted information in a Google \textbf{Firebase} database}
+%     \resumeItem{Mentored Web Dev beginners on how to use technologies like React and CSS}
+%     \resumeItem{Implemented using \textbf{React, Material-UI, SCSS,} and \textbf{Google Firebase}}
+
+% \resumeItemListEnd
+
+%\resumeSubheading
+%{\normalsize Illini Robotics in Space autonomous team}{Aug 2022 - May 2023}
+%{University of Illinois at Urbana Champaign}{Champaign, IL}
+%\resumeItemListStart
+%\resumeItem{Specialised in writing code which allowed a lunar rover to navigate a lunar environment autonomously In order to participate in the Lunabotics competition hosted by NASA}
+%\resumeItem{Contributed to a physics simulation model of the robot in Gazebo}
+%\resumeItem{Configured odometry to aid in the simultaneous localization and mapping of the robot}
+%\resumeItem{Configured a cost-map using the \textbf{Nav 2} library in the \textbf{ROS} ecosystem}
+%\resumeItem{Configured \textbf{Nav 2} plugins, and a behavior tree, to utilize navigation algorithms and complete navigation tasks}
+
+% \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+%\resumeItemListEnd
+
+
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Out of Order RISC-V processor} $|$ \emph{System Verilog, Synopsis VCS}}{}
+\resumeItemListStart
+\resumeItem{Designed and tested an out of order processor using the explicit register renaming architecture}
+\resumeItem{Achieved third highest maximum frequency in class wide design competition with an Fmax of 630Mhz}
+\resumeItem{Acheived 0.4 IPC on the Coremark IM benchmark, with high instruction level parallelism}
+\resumeItem{Incorporated an instruction and data cache utilizing pipelined 4-way set associative caches}
+\resumeItem{Implemented integral components such as: Free list, reservation stations, register alias table, retirement register alias table, physical register file, mult/div functional unit, return order buffer, load store queue}
+\resumeItem{Incorporated dynamic branch prediction with a G-share branch predictor along with a Branch Target buffer}
+\resumeItem{Developed additional advanced features such as a split load store queue for out of order loads, as well as a next line prefetcher}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{Unix Like 32-bit x86 Operating System} $|$ \emph{C, x86 asm}}{}
+\resumeItemListStart
+\resumeItem{Architected a minimalistic multitasking operating system for x86 hardware, prioritizing efficiency and reliability}
+\resumeItem{Devised an interrupt-driven, time-slice-based CPU scheduling algorithm to schedule process execution}
+% \resumeItem{Implemented support for round-robin process scheduling policy, with terminal switching}
+\resumeItem{Supported virtual memory using paging data-structures}
+\resumeItem{Developed a custom filesystem that supports basic file operations, utilizing storage, and I/O principles}
+% \resumeItem{Supported system calls such as Execute, Halt, and Vidmap}
+\resumeItem{Implemented device drivers for keyboard, Real Time Clock, Programmable Interrupt Controller, and Programmable Interval Timer}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{Game Developer's toolkit} $|$ \emph{Javascript, HTML, CSS, Node.js, Express, MySQL, Python}}{}
+\resumeItemListStart
+\resumeItem{Developed full-stack web application using a steam game database to help game developers}
+\resumeItem{Implemented multiple advanced queries to the database to output useful information for game developers}
+\resumeItem{Implemented interactive graphs in \textbf{Python}, showing helpful patterns in game data across all steam  games}
+\resumeItem{Added features to enable user sign in and login, and the ability to add other users as friends}
+\resumeItem{Utilized a \textbf{REST API} made with \textbf{Node.js} and \textbf{Express}}
+\resumeItem{Hosted website on the Google Cloud Platform}
+% \resumeItem{Developed a full-stack web application using Node.js and Express in the backend, and using React in the frontend}
+% \resumeItem{Created a REST API using Node.js and Express}
+% \resumeItem{Utilized the Clarifai machine learning API to recognize faces from inputted images by user}
+% \resumeItem{Stored users using PostgresSQL}
+% \resumeItem{Styled front end using SCSS}
+\resumeItemListEnd
+
+%\resumeProjectHeading
+%{\textbf{Chip-8 Emulator and Microcontroller port} $|$ \emph{Rust, C}}{}
+%\resumeItemListStart
+%\resumeItem{Developed a Chip-8 emulator in Rust, Engineered to be resource-efficient, optimizing for constrained environments}
+%\resumeItem{Ported the emulator to an ARM Cortex-M4 microcontroller, adapting Rust code for embedded systems}
+%\resumeItem{Implemented I/O functionality on the microcontroller, managing keyboard input and display output via \textbf{SPI} interface}
+%\resumeItem{Ensured real-time performance and responsiveness by utilizing hardware timers and \textbf{interrupt-driven} design}
+%\resumeItemListEnd
+%% \resumeProjectHeading
+%% {\textbf{Wikipedia graph analysis} $|$ \emph{C++}}{}
+%% \resumeItemListStart
+%% \resumeItem{Analyzed a directed unweighted graph based on 4 million Wikipedia pages to create a "you might also like" tool}
+%% \resumeItem{Implemented the BFS algorithm, to trim and process the dataset}
+%% \resumeItem{Used the Brandes algorithm to efficiently calculate betweenness centrality for each node, utilizing this to return a related topic to two wikipedia pages inputted by a user}
+%% \resumeItem{Used Kosaraju's algorithm to find strongly connected components in the graph}
+%% \resumeItemListEnd
+%\resumeProjectHeading
+%{\textbf{Chat-App} $|$
+%  \emph{Golang, javascript, HTML, CSS}}{}
+%\resumeItemListStart
+%\resumeItem{Created a simple chat-app utilizing a backend http web-server written in Go}
+%\resumeItem{Utilized \textbf{web-sockets} with \textbf{Go-routines} and \textbf{Go-channels} to allow multiple users to connect to the server}
+%\resumeItem{Utilized javascript, HTML, CSS to create dynamic webpages served from the web server}
+%\resumeItemListEnd
+%\resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%   \small{\item{
+%                 \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
+%                 \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+%                 \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+%                 \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+%           }}
+% \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
+
